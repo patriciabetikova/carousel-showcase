@@ -1,13 +1,14 @@
 import styled, { css } from "styled-components/macro"
 import { ArrowProps } from "."
 
-export const ArrowWrapper = styled.div<ArrowProps>`
+export const ArrowWrapper = styled.button<ArrowProps>`
   position: absolute;
   border-radius: 50%;
   width: 5rem;
   height: 5rem;
   background: rgba(255, 255, 255, 0.3);
   cursor: pointer;
+  border: none;
 
   ${p =>
     p.left

@@ -28,7 +28,7 @@ export const getImages = (
   images: Array<Image>,
   columns: number,
   activeIndex: number,
-) => {
+): Array<Image> => {
   // we need to get COLUMNS images +1 before and +1 after for transitions
   // follows example for activeIndex = 1
   // we center the activeImage so with columns = 3, we get img with indices -2, -1, 0, 1, 2
